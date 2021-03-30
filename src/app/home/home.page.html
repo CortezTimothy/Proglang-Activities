@@ -1,20 +1,31 @@
-<ion-header [translucent]="true">
+<!-- <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Sample Login Page
     </ion-title>
   </ion-toolbar>
-</ion-header>
+</ion-header> -->
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+<ion-content class="ion-padding ion-text-center">
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+  <div class="logo">
+    <img src='http://assets.stickpng.com/images/5848093ccef1014c0b5e48fc.png'>
+    Ionic sample logo.
   </div>
+
+  <div class="form">
+    <ion-item lines='none'>
+        <ion-input placeholder='Enter your email'></ion-input>
+    </ion-item>
+
+    <ion-item lines='none'>
+      <ion-input placeholder='Password' type='password'></ion-input>
+    </ion-item>
+
+    <ion-button expand='block'>Login</ion-button>
+
+</div>
+
+  <ion-button fill='clear'>Sign-Up</ion-button>
+
 </ion-content>

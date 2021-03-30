@@ -25,3 +25,14 @@
 #container a {
   text-decoration: none;
 }
+
+.form{
+  padding:5em 0;
+  ion-item{
+    border-radius: 5px;
+    border-color: grey;
+    border-width: 2px;
+    border-style: solid;
+    margin-bottom: 10px;
+  }
+}
